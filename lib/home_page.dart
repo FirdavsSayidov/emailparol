@@ -130,7 +130,7 @@ class _HomePageState extends State<HomePage> {
                             height: 50,
                                 decoration: BoxDecoration(borderRadius: BorderRadius.circular(50),color: Colors.black),
                                 child: Center(
-                                  child: Text('Github ',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
+                                  child: Text('Github',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
                                 ),
                           ),
 
