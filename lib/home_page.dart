@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
  static const String id = 'HomePage';
@@ -107,7 +106,7 @@ class _HomePageState extends State<HomePage> {
                       SizedBox(
                         height: 30,
                       ),
-                      Text('Login with Sns',style: TextStyle(color: Colors.grey,fontWeight: FontWeight.bold),),
+                      Text('Login with Sns ',style: TextStyle(color: Colors.grey,fontWeight: FontWeight.bold),),
 
                       SizedBox(height: 30,),
 
@@ -131,7 +130,7 @@ class _HomePageState extends State<HomePage> {
                             height: 50,
                                 decoration: BoxDecoration(borderRadius: BorderRadius.circular(50),color: Colors.black),
                                 child: Center(
-                                  child: Text('Github',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
+                                  child: Text('Github ',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
                                 ),
                           ),
 
